@@ -1,7 +1,7 @@
 # Social Network API
 
 ## Description
-This is a API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It is built using Express.js for routing, MongoDB for the database, and Mongoose as the ODM. The API provides various routes to perform CRUD operations on users, thoughts, reactions, and friendships.
+This is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It is built using Express.js for routing, MongoDB for the database, and Mongoose as the ODM. The API provides various routes to perform CRUD operations on users, thoughts, reactions, and friendships.
 
 ## Table of Contents
 - [Usage](#usage)
@@ -16,7 +16,7 @@ node server.js
 ```
 - The APIs can be tested in Postman
 
-![user experience](./public/images/mainpage.png)
+![user experience](./images/apicheck.png)
 
 
 ## Credits

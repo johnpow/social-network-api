@@ -32,10 +32,10 @@ const thoughtSchema = new Schema(
   }
 );
 
-thoughtSchema.method.formatDate = function (date) {
+thoughtSchema.virtual('formattedCreatedAt').get(function () {
+  const date = this.createdAt;
   return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
-};
-
+});
 
 thoughtSchema
   .virtual('reactionCount')

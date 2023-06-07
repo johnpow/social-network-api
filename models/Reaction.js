@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 
 const reactionSchema = new Schema(
   {
@@ -27,10 +27,10 @@ const reactionSchema = new Schema(
   }
 );
 
-reactionSchema.method.formatDate = function (date) {
+reactionSchema.virtual('formattedCreatedAt').get(function () {
+  const date = this.createdAt;
   return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
-};
-
+});
 
 const Reaction = model('reaction', reactionSchema);
 
