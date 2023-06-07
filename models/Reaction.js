@@ -32,6 +32,6 @@ reactionSchema.method.formatDate = function (date) {
 };
 
 
-const Reaction = model('tag', reactionSchema);
+const Reaction = model('reaction', reactionSchema);
 
 module.exports = Reaction;
