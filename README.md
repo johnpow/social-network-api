@@ -33,4 +33,4 @@ The Social Network API provides the following features:
 ## Access
 [Click to View Repository](https://github.com/johnpow/social-network-api)
 
-[Click for the Video Walkthrough](https://eventure.herokuapp.com/)
+[Click for the Video Walkthrough](https://drive.google.com/file/d/1Yi6w56-xoeKDSSdiM-3wLsbgUblhmjzt/view)
