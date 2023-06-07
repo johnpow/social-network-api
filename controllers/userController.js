@@ -1,4 +1,4 @@
-const User = require('../models/User');
+const { User, Thought } = require('../models');
 
 module.exports = {
   async getUsers(req, res) {
@@ -92,6 +92,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json(err);
     }
+   
   }
 
 };

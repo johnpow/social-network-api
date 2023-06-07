@@ -1,7 +1,7 @@
 # Social Network API
 
 ## Description
-
+This is a API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. It is built using Express.js for routing, MongoDB for the database, and Mongoose as the ODM. The API provides various routes to perform CRUD operations on users, thoughts, reactions, and friendships.
 
 ## Table of Contents
 - [Usage](#usage)
@@ -10,17 +10,27 @@
 - [Access](#access)
 
 ## Usage
+- The server can be launched with the following command
+```
+node server.js
+```
+- The APIs can be tested in Postman
 
 ![user experience](./public/images/mainpage.png)
 
 
 ## Credits
-
+This API was developed as a project for the NoSQL module of a coding bootcamp. 
 
 ## Features
-- Secure User
+The Social Network API provides the following features:
+
+- User management: Create, update, delete, and retrieve users.
+- Thought management: Create, update, delete, and retrieve thoughts.
+- Reaction management: Create and delete reactions to thoughts.
+- Friendship management: Add and remove friends from a user's friend list.
 
 ## Access
-[Click to View Repository](https://github.com/johnpow/eventure)
+[Click to View Repository](https://github.com/johnpow/social-network-api)
 
-[Click for the Live Project](https://eventure.herokuapp.com/)
+[Click for the Video Walkthrough](https://eventure.herokuapp.com/)
